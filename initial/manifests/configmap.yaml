@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: qacomerssia-config
+  
+  labels:
+    app: qacomerssia
+data:
+  QACOMERSSIA_APP_PROFILE: production
+  QACOMERSSIA_APP_PORT : '8080'
+  QACOMERSSIA_DB_HOST : assaabloy.clirlt2x1ee9.us-east-1.rds.amazonaws.com
+  QACOMERSSIA_DB_NAME : qacomerssia
+  QACOMERSSIA_DB_PORT : '1433'
+  QACOMERSSIA_DB_TIMEZONE : America/Bogota

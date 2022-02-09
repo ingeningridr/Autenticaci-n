@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<transaccion>
+	<USUARIO>624154454F2912704B025C5D0F4253016E2203ECDF907B</USUARIO>
+	<CLAVE>624154454F2912704B025C5D0F4253016E6429CED4AF3E3C59</CLAVE>
+<encabezado>
+		<ENCDescripcion>Traslado Entre Bodega y Punto de Venta</ENCDescripcion><!-->Valor Fijo-->
+		<GMVCodigo>INV</GMVCodigo><!-->Valor Fijo-->
+		<MOVCodigo>TRASBOD</MOVCodigo><!-->Valor Fijo-->
+		<movimiento>Standar</movimiento><!-->Valor Fijo-->
+		<USUCodigo>IMPLE</USUCodigo><!-->Valor Fijo--> <!-- definir un vendedor que envie las transaccion como valor fijo -->
+		<CAJCodigo>ADM0101</CAJCodigo><!-->Valor Fijo-->
+		<IDEMP>aaco</IDEMP><!-->Valor Fijo-->
+		<ALMCodigo>ADM01</ALMCodigo><!-->Valor Fijo-->
+		<ALMNombre>ADMINISTRATIVO</ALMNombre><!-->Valor Fijo-->
+		<MONCodigo>1</MONCodigo><!-->Valor Fijo-->
+		<ENCFechaTrx>2021/04/23</ENCFechaTrx><!-- variable - fecha transaccion AAAA/MM/DD-->
+		<ENCHoraTrx>13:28:48</ENCHoraTrx><!--variable Hora Transaccion-->
+	    <ENCModo>L-C</ENCModo><!--Valor Fijo-->
+		<ENCTipoProc>Standar</ENCTipoProc><!--Valor Fijo-->
+		<ENCConsTrx>3</ENCConsTrx><!--Consecutivo Transaccion valor unico no se puede repetir para el mismo almacen-->
+		<ENCTasaConversion>1</ENCTasaConversion><!--Valor Fijo-->
+		<ENCTotalReferencias>2</ENCTotalReferencias><!--Cantidad productos que debe despachar la tienda-->
+		<ENCBruto>0</ENCBruto><!--Valor Fijo-->
+		<ENCDescuento>0</ENCDescuento><!--Valor Fijo-->
+		<ENCPagNoVenta>0</ENCPagNoVenta><!--Valor Fijo-->
+		<ENCVenta>0</ENCVenta><!--Valor Fijo-->
+		<ENCImpuestos>0</ENCImpuestos><!--Valor Fijo-->
+		<ENCComision>0</ENCComision><!--Valor Fijo-->
+		<ENCNeto>0</ENCNeto><!--Valor Fijo-->
+		<ENCRecaudo>0</ENCRecaudo><!--Valor Fijo-->
+		<ENCImpuestoAsumido>0</ENCImpuestoAsumido><!--Valor Fijo-->
+		<ENCPuntos>0</ENCPuntos><!--Valor Fijo-->
+		<ENCEstadoLinea>L</ENCEstadoLinea><!--Valor Fijo-->
+		<ENCRespuesta>OK</ENCRespuesta><!--Valor Fijo-->
+		<ENCDescRespuesta>NO APLICA</ENCDescRespuesta>
+	</encabezado>
+	<detalle>
+		<items>
+			<item nitem="1" Tipo="Letra" Visible="True" Imprime="False"><!--Valor Fijo excepto la variable nitem-->
+				<ICPPresentacion>Show Room Colina</ICPPresentacion><!--Almacen de Destino a donde se envia el traslado-->
+				<ICPDescripcion>Almacen Destino</ICPDescripcion><!--Valor Fijo-->
+				<ICPCadena>S101</ICPCadena><!--Codigo Almacen Destino-->
+				<ICPPresentacion2>SHOW ROOM COLINA</ICPPresentacion2><!--Almacen de Destino a donde se envia el traslado debe ir en Mayuscula-->
+				<ICPLetra>ALMD</ICPLetra><!--Valor Fijo-->
+			</item>
+			<item nitem="2" Tipo="Letra" Visible="True" Imprime="False"><!--Valor Fijo excepto la variable nitem-->
+				<ICPPresentacion>Pruebas Traslado WS</ICPPresentacion><!--Observacion del traslado-->
+				<ICPDescripcion>Observaciones</ICPDescripcion><!--Valor Fijo-->
+				<ICPCadena>Pruebas Traslado WS</ICPCadena><!--Observacion del traslado-->
+				<ICPLetra>OBS</ICPLetra><!--Valor Fijo-->
+			</item>
+			<item nitem="3" Tipo="Letra" Visible="True" Imprime="False"><!--Valor Fijo excepto la variable nitem-->
+				<ICPPresentacion>IMPLE</ICPPresentacion><!--Usuario registrado a la transaccion Campo (USUCodigo) de la seccion del encabezado en la parte superior, a especidifar-->
+				<ICPDescripcion>Vendedor</ICPDescripcion><!--Valor Fijo-->
+				<ICPCadena>IMPLE</ICPCadena><!--Usuario registrado a la transaccion Campo (USUCodigo) de la seccion del encabezado en la parte superior, a especidifar-->
+				<ICPLetra>VEN</ICPLetra><!--Valor Fijo-->
+			</item>
+			<item nitem="4" Tipo="Referencia" Tiporef="normal" Visible="True">
+				<REFCodClasificacion></REFCodClasificacion><!--OBLIGACTORIO VACIO-->
+				<REFCodigo1>0006480</REFCodigo1><!--OBLIGACTORIO-->
+				<REFCodigo2>7704359064807</REFCodigo2><!--OBLIGACTORIO-->
+				<REFNombreCorto>ATLANTA ALC</REFNombreCorto><!--OBLIGACTORIO-->
+				<REFNombreLargo>MANIJA ATLANTA US26D ALC</REFNombreLargo><!--OBLIGACTORIO-->
+				<CARCodigo1></CARCodigo1>
+				<REFPrecioLista>600000</REFPrecioLista><!--OBLIGACTORIO-->
+				<IRFBruto>600000</IRFBruto><!--OBLIGACTORIO-->
+				<IRFDescuento>0</IRFDescuento><!--OBLIGACTORIO-->
+				<IRFPago>600000</IRFPago><!--OBLIGACTORIO-->
+				<IRFCantidad>1</IRFCantidad><!--OBLIGACTORIO cantidad de prodcuto-->
+				<IRFValorImpuesto>95798.32</IRFValorImpuesto><!--OBLIGACTORIO-->
+				<IRFImpuesto>19</IRFImpuesto><!--OBLIGACTORIO-->
+				<REFEsCombo>0</REFEsCombo>><!--OBLIGACTORIO: 0 si es normal 1 si es Combo-->
+				<REFUltimoCosto>0</REFUltimoCosto><!--OBLIGACTORIO en cero-->
+				<PRVCodigo>AACO</PRVCodigo><!--OBLIGACTORIO-->
+				<REFCapturaSerial>false</REFCapturaSerial><!--OBLIGACTORIO y fijo-->
+				<REFManejaLotes>false</REFManejaLotes><!--OBLIGACTORIO y fijo-->
+				<REFFactorConversion>1</REFFactorConversion><!--OBLIGACTORIO y fijo-->
+				<REFInventario></REFInventario><!--OBLIGACTORIO y fijo-->
+				<REFEsParaVenta></REFEsParaVenta><!--OBLIGACTORIO y fijo-->
+				<estado>ACTIVO</estado><!--OBLIGACTORIO y fijo-->
+				<IRFPagNoVenta>0</IRFPagNoVenta><!--OBLIGACTORIO y fijo-->
+				<IRFVenta>0</IRFVenta><!--OBLIGACTORIO y fijo-->
+				<IRFValorImpuestoNeto>0</IRFValorImpuestoNeto><!--OBLIGACTORIO y fijo-->
+				<IRFComision>0</IRFComision><!--OBLIGACTORIO y fijo-->
+				<IRFImpuestoAsumido>0</IRFImpuestoAsumido><!--OBLIGACTORIO y fijo-->
+				<IRFNeto>0</IRFNeto><!--OBLIGACTORIO y fijo-->
+				<REFCodigoIngresado>0006480</REFCodigoIngresado>
+				<REFPuntos>0</REFPuntos><!--OBLIGACTORIO y fijo-->
+			</item>
+			<item Tipo="Letra" nitem="6" Imprime="false"><!--Valor Fijo excepto la variable nitem-->
+				<ICPPresentacion>2021/04/23 13:28:48</ICPPresentacion><!--Fecha y hora de generacion de la transaccion-->
+				<ICPDescripcion>Fecha Trabajo</ICPDescripcion><!--Valor Fijo-->
+				<ICPCadena>2021/04/23 13:28:48</ICPCadena><!--Fecha y hora de generacion de la transaccion-->
+				<ICPLetra>PDPFA</ICPLetra><!--Valor Fijo-->
+			</item>
+		</items>
+	</detalle>
+</transaccion>

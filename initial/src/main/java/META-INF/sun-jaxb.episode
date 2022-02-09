@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.0 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2022.01.19 a las 06:36:41 PM COT 
+
+  -->
+      
+    <bindings xmlns:tns="http://tempuri.org/" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.example.springboot.wsdl.mapping"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="tns:wm_LoginCanalesResponse">
+                  
+            <class ref="WmLoginCanalesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_LoginCanales2Response">
+                  
+            <class ref="WmLoginCanales2Response"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_OlvidoClaveResponse">
+                  
+            <class ref="WmOlvidoClaveResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_CambioClaveResponse">
+                  
+            <class ref="WmCambioClaveResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_CambioClave2Response">
+                  
+            <class ref="WmCambioClave2Response"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_InsertUpdateResponse">
+                  
+            <class ref="WmInsertUpdateResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_EnvioTransaccionesResponse">
+                  
+            <class ref="WmEnvioTransaccionesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_pb_ObtenerAlmacenEnvioResponse">
+                  
+            <class ref="WmPbObtenerAlmacenEnvioResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_pb_devolver_ZonaResponse">
+                  
+            <class ref="WmPbDevolverZonaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_ModificacionProductoCentroCostoResponse">
+                  
+            <class ref="WmModificacionProductoCentroCostoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_EnvioTransaccionesExpInsumosResponse">
+                  
+            <class ref="WmEnvioTransaccionesExpInsumosResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_EnvioTransaccionesCompletarTrxResponse">
+                  
+            <class ref="WmEnvioTransaccionesCompletarTrxResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_InsertUpdateDirecionesClientesResponse">
+                  
+            <class ref="WmInsertUpdateDirecionesClientesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_InsertUpdateTrxResponse">
+                  
+            <class ref="WmInsertUpdateTrxResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_CargaArchivoPlanoResponse">
+                  
+            <class ref="WmCargaArchivoPlanoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_LoginCanales">
+                  
+            <class ref="WmLoginCanales"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_LoginCanales2">
+                  
+            <class ref="WmLoginCanales2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_OlvidoClave">
+                  
+            <class ref="WmOlvidoClave"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_CambioClave">
+                  
+            <class ref="WmCambioClave"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_CambioClave2">
+                  
+            <class ref="WmCambioClave2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_InsertUpdate">
+                  
+            <class ref="WmInsertUpdate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_EnvioTransacciones">
+                  
+            <class ref="WmEnvioTransacciones"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_SolicitudDatos">
+                  
+            <class ref="WmSolicitudDatos"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_SolicitudDatosResponse">
+                  
+            <class ref="WmSolicitudDatosResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_pb_ObtenerAlmacenEnvio">
+                  
+            <class ref="WmPbObtenerAlmacenEnvio"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_pb_devolver_Zona">
+                  
+            <class ref="WmPbDevolverZona"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_ConsultaCentrosCostoCliente">
+                  
+            <class ref="WmConsultaCentrosCostoCliente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_ConsultaCentrosCostoClienteResponse">
+                  
+            <class ref="WmConsultaCentrosCostoClienteResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_ModificacionProductoCentroCosto">
+                  
+            <class ref="WmModificacionProductoCentroCosto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_Reporte">
+                  
+            <class ref="WmReporte"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_ReporteResponse">
+                  
+            <class ref="WmReporteResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_PruebaService">
+                  
+            <class ref="WmPruebaService"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_PruebaServiceResponse">
+                  
+            <class ref="WmPruebaServiceResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_PruebaServiceConParametro">
+                  
+            <class ref="WmPruebaServiceConParametro"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_PruebaServiceConParametroResponse">
+                  
+            <class ref="WmPruebaServiceConParametroResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_ConsultaProcesosClientes">
+                  
+            <class ref="WmConsultaProcesosClientes"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_ConsultaProcesosClientesResponse">
+                  
+            <class ref="WmConsultaProcesosClientesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_ConsultaProcesoNumMesa">
+                  
+            <class ref="WmConsultaProcesoNumMesa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_ConsultaProcesoNumMesaResponse">
+                  
+            <class ref="WmConsultaProcesoNumMesaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_EnvioTransaccionesExpInsumos">
+                  
+            <class ref="WmEnvioTransaccionesExpInsumos"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_EnvioTransaccionesCompletarTrx">
+                  
+            <class ref="WmEnvioTransaccionesCompletarTrx"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_EnvioTransaccionesAENA">
+                  
+            <class ref="WmEnvioTransaccionesAENA"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_EnvioTransaccionesAENAResponse">
+                  
+            <class ref="WmEnvioTransaccionesAENAResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_ObtenerResumenAENA">
+                  
+            <class ref="WmObtenerResumenAENA"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_ObtenerResumenAENAResponse">
+                  
+            <class ref="WmObtenerResumenAENAResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_ObtenerResumenArticulosAENA">
+                  
+            <class ref="WmObtenerResumenArticulosAENA"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_ObtenerResumenArticulosAENAResponse">
+                  
+            <class ref="WmObtenerResumenArticulosAENAResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_ObtenerResumenAnualAENA">
+                  
+            <class ref="WmObtenerResumenAnualAENA"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_ObtenerResumenAnualAENAResponse">
+                  
+            <class ref="WmObtenerResumenAnualAENAResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_ObtenerTRXAENA">
+                  
+            <class ref="WmObtenerTRXAENA"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_ObtenerTRXAENAResponse">
+                  
+            <class ref="WmObtenerTRXAENAResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_ObtenernewVersionGeneradorArchivosPlanos">
+                  
+            <class ref="WmObtenernewVersionGeneradorArchivosPlanos"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_ObtenernewVersionGeneradorArchivosPlanosResponse">
+                  
+            <class ref="WmObtenernewVersionGeneradorArchivosPlanosResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_ObtenerListadoArchivosAENA">
+                  
+            <class ref="WmObtenerListadoArchivosAENA"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_ObtenerListadoArchivosAENAResponse">
+                  
+            <class ref="WmObtenerListadoArchivosAENAResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfString">
+                  
+            <class ref="ArrayOfString"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_InsertUpdateDirecionesClientes">
+                  
+            <class ref="WmInsertUpdateDirecionesClientes"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_InsertUpdateTrx">
+                  
+            <class ref="WmInsertUpdateTrx"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_CargaArchivoPlano">
+                  
+            <class ref="WmCargaArchivoPlano"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_IngresoLogSAP">
+                  
+            <class ref="WmIngresoLogSAP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_IngresoLogSAPResponse">
+                  
+            <class ref="WmIngresoLogSAPResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_GuardarArchivoBatch">
+                  
+            <class ref="WmGuardarArchivoBatch"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:wm_GuardarArchivoBatchResponse">
+                  
+            <class ref="WmGuardarArchivoBatchResponse"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>

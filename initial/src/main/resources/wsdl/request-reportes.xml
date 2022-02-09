@@ -1,0 +1,16 @@
+<DATOS>
+ <USUARIO>Usuario del WS encriptado</USUARIO>
+ <CLAVE>Clave del WS encriptado</CLAVE>
+ <NOMBRE> nombre de reporte valores específicos</NOMBRE> 
+ <IDEMP> código de empresas</IDEMP> 
+ <CONSULTAINVENTARIOREFERENCIA>
+	<REFCODIGO> código de empresas</REFCODIGO> 
+	<ALMCODIGO> código de empresas</ALMCODIGO> 
+ </CONSULTAINVENTARIOREFERENCIA>
+ <CONSULTADETALLEPROCESO>
+	<TPRCODIGO> código de empresas</TPRCODIGO> 
+	<CLICODIGO> código de empresas</CLICODIGO> 
+	<PRCCODIGO> código de empresas</PRCCODIGO> 
+	<DATOSTRX> código de empresas</DATOSTRX> 
+ </CONSULTADETALLEPROCESO>
+</DATOS>
